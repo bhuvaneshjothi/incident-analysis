@@ -2,11 +2,6 @@
 
 This repository contains short, plain-language analyses of real security incidents, written from the point of view of a defensive (SOC) analyst. Each case separates **confirmed facts** from **unverified claims**, maps the activity to **MITRE ATT&CK**, and ends with **practical detection and prevention ideas**.
 
-**Author:** [Your name] | Systems Administrator moving into SOC analysis | [LinkedIn link]
-**Certifications and training:** CompTIA Security+, Splunk Core Certified User, TryHackMe SAL1 (add after the exam)
-**Lab tools:** Wazuh, Splunk, Microsoft Entra ID (adjust to match the actual lab)
-
----
 
 ## Cases
 
