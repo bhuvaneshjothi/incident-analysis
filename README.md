@@ -2,12 +2,18 @@
 
 This repository contains short, plain-language analyses of real security incidents, written from the point of view of a defensive (SOC) analyst. Each case separates **confirmed facts** from **unverified claims**, maps the activity to **MITRE ATT&CK**, and ends with **practical detection and prevention ideas**.
 
+**Author:** [Your name] | Systems Administrator moving into SOC analysis | [LinkedIn link]
+**Certifications and training:** CompTIA Security+, Splunk Core Certified User, TryHackMe SAL1 (add after the exam)
+**Lab tools:** Wazuh, Splunk, Microsoft Entra ID (adjust to match the actual lab)
+
+---
 
 ## Cases
 
 | Date | Case | Type | Key lesson |
 |---|---|---|---|
 | Nov 2026 | [Vendor data leak affecting JPMorgan Chase, Visa and Mastercard](cases/2026-11-vendor-leak/README.md) | Third-party breach, data-theft extortion | Vendor access and shared data are part of the attack surface |
+| Nov 2026 | [Microsoft 365 and Outlook global outage](cases/2026-11-m365-outage/README.md) | Cloud service outage (availability) | An outage is a security question until the evidence says otherwise |
 
 New cases are added on a regular schedule. Each case follows the same [template](templates/case-template.md).
 
